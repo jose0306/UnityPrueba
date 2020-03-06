@@ -19,9 +19,9 @@ public class Move : MonoBehaviour
         Movement();
     }
     void Rotate(){
-        if(Input.GetKey(KeyCode.Q))
+        if(Input.GetKey(KeyCode.E))
         transform.Rotate(new Vector3(0f,-rotar,0f)* Time.deltaTime);
-        else if(Input.GetKey(KeyCode.E))
+        else if(Input.GetKey(KeyCode.Q))
         transform.Rotate(new Vector3(0f,rotar,0f)* Time.deltaTime);
     }
     void Movement(){
